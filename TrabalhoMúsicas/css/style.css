@@ -1,0 +1,47 @@
+#art{
+    background: linear-gradient(to left, rgb(205, 102, 205), rgb(104, 173, 173), rgb(235, 228, 0), rgb(51, 223, 51), rgb(224, 224, 37), orange, rgb(235, 0, 0)); 
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+    font-size: 40px;
+  }
+  @keyframes animated{
+    to {background-position-x: 161px;}
+  }
+  h1{
+    color: white;
+  }
+  p{
+    color: white;
+  }
+  .divimg1{
+    position: absolute;
+    right: 2em;
+    top: 8em;
+    height: 55%;
+    width: 40%;
+  }
+  .divimg2{
+    border: 4px solid black;
+    border-radius: 45% 60% 45%;
+    position: absolute;
+    right: 30px;
+    top: 30em;
+    height: 49%;
+    width: 39%;
+  }
+  .text1 {
+    width: 55%;
+    position: relative;
+    left: 12px;
+    font-family:  sans-serif;
+    font-size: 1.2em;
+  }
+  .text2 {
+    width: 55%;
+    position: relative;
+    left: 12px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+  }
